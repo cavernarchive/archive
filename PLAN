@@ -1,0 +1,10 @@
+HOME PAGE (index.html)          - this will introduce the archive, and have links to the years
+
+YEAR PAGE ([year].html)         - this will have links to the months, links to previous and following year?
+                                - maybe something fun like a list of significant events that happened that year
+
+MONTH PAGE ([month][year].html) - show a list of dates in that month with the lineups beside them
+                                - link to poster by clicking on gig, open in new tab
+                                - chart toppers that month?
+
+Folders for each year and then months within that year
