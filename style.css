@@ -4,8 +4,15 @@ head, body {
   color: #faf1ca
 }
 
-a {
+a:link, a:visited, a:active {
   color: #faf1ca;
   font-family: arial;
   font-weight: bold
+}
+
+a:hover {
+  color: #faf1ca;
+  font-family: arial;
+  font-weight: bold;
+  text-decoration: underline
 }
