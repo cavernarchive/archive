@@ -3,3 +3,9 @@ head, body {
   font-family: arial;
   color: #faf1ca
 }
+
+a {
+  color: #faf1ca;
+  font-family: arial;
+  font-weight: bold
+}
