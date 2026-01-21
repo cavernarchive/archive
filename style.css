@@ -3,3 +3,27 @@ head, body {
   font-family: arial;
   color: #faf1ca
 }
+
+.containerindex {
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  padding: 10px;
+  width: 50%;
+}
+        
+.containerindex div {
+    text-align: center;
+    padding: 5px;
+}
+
+.containermonth {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  padding: 10px;
+  width: 50%;
+}
+        
+.containermonth div {
+    text-align: center;
+    padding: 5px;
+}
