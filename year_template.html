@@ -31,6 +31,19 @@
         text-decoration: underline;
       }
 
+      .containermenu {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        padding: 10px;
+        width: 50%;
+      }
+
+      .containermenu div {
+        text-align: center;
+        padding: 5px;
+      }
+        
+
       .containermonth {
         display: grid;
         grid-template-columns: 33% 33% 33%;
@@ -51,9 +64,11 @@
 
     <center>
 
-      <p style = "margin:auto; width:50%; padding-top:15px">
-        <a style = "padding-right:125px" href = "./.html"></a> <a style = "padding-right:125px" href = "./index.html">Home</a> <a href = "./.html"></a>
-      </p>
+      <div style = "padding-top:15px" class = "containermenu">
+        <div><a href = "./.html"></a></div>
+        <div><a href = "./index.html"></a>Home</div>
+        <div><a href = "./.html"></a></div>
+      </div>
 
       <h1></h1>
 
